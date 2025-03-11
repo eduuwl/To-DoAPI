@@ -5,11 +5,11 @@ API RESTful para gerenciamento de tarefas, construída com **NestJS** e **Postgr
 ---
 
 ##  Funcionalidades
- Criar uma nova tarefa  
- Listar todas as tarefas  
- Buscar tarefa por ID  
- Atualizar status de uma tarefa  
- Excluir uma tarefa  
+ - **Criar uma nova tarefa**
+ - **Listar todas as tarefas**  
+ - **Buscar tarefa por ID**  
+ - **Atualizar status de uma tarefa**  
+ - **Excluir uma tarefa**  
 
 ---
 
@@ -120,10 +120,10 @@ npm run test
 ## **8. Dificuldades Encontradas**
 Durante o desenvolvimento da API, enfrentei algumas dificuldades, principalmente em:
 
-UUID no banco: Como nunca havia utilizado UUID como identificador primário no TypeORM, tive dificuldades na configuração inicial e no uso correto da biblioteca uuid.
+- **UUID no banco: Como nunca havia utilizado UUID como identificador primário no TypeORM, tive dificuldades na configuração inicial e no uso correto da biblioteca uuid.**
 
 ---
 
 ## **9. Outras informações**
-Tempo dedicado no projeto (09/03 -> 11/03)
+- **Tempo dedicado no projeto (09/03 -> 11/03)**
 
