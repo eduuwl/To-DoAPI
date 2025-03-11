@@ -35,7 +35,7 @@ Antes de começar, você precisará ter as seguintes ferramentas instaladas:
 1️⃣ Clone este repositório:  
 ```bash
 git clone https://github.com/eduuwl/To-DoAPI.git
-cd seu-repositorio
+cd To-DoAPI
 ```
 
 2️⃣ Instale as dependências:
