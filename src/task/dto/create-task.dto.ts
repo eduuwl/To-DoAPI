@@ -11,7 +11,7 @@ export class CreateTaskDto {
     description?: string;
 
     @IsDateString()
-    activityDate: Date;
+    activityDate: string;
 
     @IsEnum(TaskStatus)
     @IsOptional()

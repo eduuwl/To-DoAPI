@@ -13,7 +13,7 @@ import { AppService } from './app.service';
       useFactory: (config: ConfigService) => ({
         type: 'postgres',
         host: config.get('DATABASE_HOST'),
-        port: parseInt(config.get('DATABASE_PORT')),
+        port: config.get('DATABASE_PORT'),
         username: config.get('DATABASE_USER'),
         password: config.get('DATABASE_PASSWORD'),
         database: config.get('DATABASE_NAME'),

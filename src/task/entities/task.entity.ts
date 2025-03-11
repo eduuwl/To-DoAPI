@@ -11,16 +11,16 @@ export class Task {
     @PrimaryGeneratedColumn('uuid')
     id: string;
 
-    @Column()
+    @Column({ name: 'titulo' })
     title: string;
 
-    @Column({ nullable: true})
+    @Column({ name: 'descricao', nullable: true })
     description?: string;
 
-    @Column({ type: 'timestamp'})
+    @Column({ name: 'data_atividade', type: 'timestamp' })
     activityDate: Date;
 
-    @Column({ type: 'enum', enum: TaskStatus, default: TaskStatus.PENDING })
+    @Column({ name: 'status', type: 'enum', enum: TaskStatus, default: TaskStatus.PENDING })
     status: TaskStatus;
 
     @CreateDateColumn()
